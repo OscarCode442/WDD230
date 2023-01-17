@@ -8,4 +8,5 @@ document.getElementById('year').textContent = new Date().toLocaleDateString('en-
 // document.getElementById('time').textContent = new Date().toLocaleTimeString('en-us', option1) 
 
 const date = new Date(document.lastModified);
+const 
 document.getElementById('date').textContent = date
