@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Inland valley chamber of commerce home page">
+    <title>INLAND VALLEY CHAMBER</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="Styles/base.css">
+    <link rel="stylesheet" href="Styles/medium.css">
+    <link rel="stylesheet" href="Styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header class="header-grid">
+        <div class="logo-info"><img class="logo-img" src="images/logo_small.png" alt="inland valley logo">
+            <div id="name">
+                <h1>INLAND VALLEY CHAMBER </h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://web.facebook.com/chinemerem.ukeje.7/" target=" _blank"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon">
+            <a href="https://www.instagram.com/sheddy_cole/" target=" _blank"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Finstagram%20icon.png?v=1633567220450" alt="Instagram Icon"></a>
+        </div>
+        <button id="nav-btn"><span>&#9776;</span><span>&#10005;</span></button>
+        <nav>
+            <ul id="navUl">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="header-date">
+            <!-- JS! -->
+        </div>
+    <div class="banner hide"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+    </header>
+    <main>
+        <div class="block hero" id="hero">
+            <picture id="heroPhoto">
+               <source media="(min-width: 1000px)" srcset="images/hero-large.jpg">
+               <source media="(min-width: 600px)" srcset="images/hero-medium.jpg">
+               <source media="(min-width: 300px)" srcset="images/hero-small.jpg">
+                <img src="images/hero-base.jpg" alt="Chamber members in meeting">
+            </picture>
+            <h2>Welcome to the <br/><span>Inland Valley</span></h2>
+            <button id = "join-btn">Join the Chamber</button>
+        </div>
+        <div class="block event sub">
+            <h2>Annoucement</h2>
+            <h3>Increase in Stock </h3>
+            <p>Inland Valley has recorded an increase in the total amount of sales and participation </p>
+        </div>
+        <div class="block weather sub">
+            <h2>Weather</h2>
+            <img id="weather-icon" src="images/weather.png" alt="sunny icon">
+            <h3><span id="temp">27</span>°C</h3>
+            <hr>
+            <p id="location-weather"></p>
+            <p>Wind Speed:<span id="wind-speed">7</span>km/h</p>
+            <p>Wind Chill:<span id="wind-chill">N/A</span></p>
+        </div>
+        <div class="block join">
+            <button>Join Us!</button>
+            <p>Discover how to join the inland valley chamber of commerce and how we work!</p>
+        </div>
+        <div class="block news sub">
+            <h2>Upcoming Event</h2>
+            <p>We at Inland Valley would love to cordially invite you for the next conference. 
+            </p>
+        </div>
+        <div class="placeholder-spotlights" id="spotlights">
+            <div class="spotlight">
+                <h2>Luscious</h2>
+                <img src="images/Luscious hair.png" alt="Luscious logo">
+                <hr>
+                <p>info@arnegyteam.com</p>
+                <p>+234 123 -1234 | Website</p>
+            </div>
+            <div class="spotlight">
+                <h2>Rebecca's Diner</h2>
+                <img src="images/dineeerrrrr.jpg" alt="Rebecca Diner logo">
+                <hr>
+                <p>www.rebeccadiner@yahoo.com</p>
+                <p>+1 (876) 456 9876 | Website</p>
+            </div>
+            <div class="spotlight spot-3" id="spot-3">
+                <h2>Nestle</h2>
+                <img src="images/download.png" alt="arnegy logo">
+                <hr>
+                <p>info@nestlegroup.com</p>
+                <p>+234 879 -3586 | Website</p></div>
+        </div>
+    </main>
+    <footer>
+        <div class="first-half">
+            <div class="first-half-1">
+                <img class="footer-logo logo-img" src="images/logo_small.png" alt="inland valley logo">
+                <h2>INLAND VALLEY CHAMBER</h2>
+                <span id="address">342 3rd, Ikoyi, Lagos. 23401</span>
+            </div>
+            <div class="first-half-2">
+                <span id="email">Ukaegbueze442@gmail.com</span>
+                <span id="phone">+(234) 7061412368</span>
+                <span id="map">📍 Location Map</span>
+            </div>
+        </div>
+        <hr>
+        <div class="second-half">
+            <span id="footer-year">
+                <!-- JS! -->
+            </span>
+            <h2>Ukaegbu Japhet Oscar</h2>
+            <span>WDD 230 Project</span>
+            <span class="last-modification">
+            </span>
+        </div>
+    </footer>
+    <script src="Script/script.js"></script>
+    <script src="Script/windchill.js" defer></script>
+</body>
+</html>
