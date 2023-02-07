@@ -1,12 +1,12 @@
-// const options = {year: 'numeric'}
-// document.getElementById('year').textContent = new Date().toLocaleDateString('en-us', options)
+const options = {year: 'numeric'}
+document.getElementById('year').textContent = new Date().toLocaleDateString('en-us', options)
 
-// // shows the last time the code was modified
-// const date = new Date(document.lastModified);
-// const lastModifiedDate = date.toLocaleDateString();
-// const lastModifiedTime = date.toLocaleTimeString();
-// document.getElementById('date').textContent = lastModifiedDate
-// document.getElementById("time").textContent = lastModifiedTime
+// shows the last time the code was modified
+const date = new Date(document.lastModified);
+const lastModifiedDate = date.toLocaleDateString();
+const lastModifiedTime = date.toLocaleTimeString();
+document.getElementById('date').textContent = lastModifiedDate
+document.getElementById("time").textContent = lastModifiedTime
 
 
 const navBtn = document.querySelector("#nav-btn");
@@ -34,16 +34,16 @@ dateEl.innerHTML = `${curDay()}, ${curDayofMonth} ${curMonth()} ${curYear}`;
 
 footerEl.innerHTML = `&copy${curYear} Inland Valley Chamber`
 
-const lastModifiedDate = new Date(document.lastModified)
+// const lastModifiedDate = new Date(document.lastModified)
 
-let modYear = lastModifiedDate.getFullYear();
-let modDay = lastModifiedDate.getDay();
-let modMonth = lastModifiedDate.getMonth();
-let modminute = lastModifiedDate.getMinutes();
-let modsecond = lastModifiedDate.getSeconds()
-let modhour = lastModifiedDate.getHours(); 
+// let modYear = lastModifiedDate.getFullYear();
+// let modDay = lastModifiedDate.getDay();
+// let modMonth = lastModifiedDate.getMonth();
+// let modminute = lastModifiedDate.getMinutes();
+// let modsecond = lastModifiedDate.getSeconds()
+// let modhour = lastModifiedDate.getHours(); 
 
-modEl.innerHTML = `Last Updated: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}:${modsecond}`
+// modEl.innerHTML = `Last Updated: ${modMonth}/${modDay}/${modYear} ${modhour}:${modminute}:${modsecond}`
 
 // set active
 
