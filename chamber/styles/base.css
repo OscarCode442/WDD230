@@ -6,7 +6,9 @@ body {
   min-height: 100vh;
   background-color: whitesmoke;
 }
-
+.banner-hide {
+  display: none;
+}
 h1 {
   font-size: 25px;
 }
