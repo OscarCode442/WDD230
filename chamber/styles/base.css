@@ -4,7 +4,7 @@ body {
   padding: 0px;
   border: 0px;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: black;
 }
 .banner-hide {
   display: none;
